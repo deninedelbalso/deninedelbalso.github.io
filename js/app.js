@@ -1,35 +1,27 @@
-//Getm modal element
-var modal = document.getElementById('littleModal')
+// Get the modal
+var modal = document.getElementById('myModal');
 
-//Get open modal button
-var modalButton =document.getElementsByClassName('modalButton');
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
 
-//Get close button
-var closeButton =document.getElementsByClassName('closeButton')[0];
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
 
-//Listen for open click
-modalButton.addEventListener('click', openModal);
-
-//Listen for close click
-closeButton.addEventListener('click', closeModal);
-
-//Listen for outside click
-window.addEventListener('click', closeOutside);
-
-//Function to open modal
-function.openModal(){
-modal.style.display ='block';
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
 }
 
-//Function to close modal
-function.closeModal(){
-modal.style.display ='none';
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
 }
 
-//Function to close modal if outside click
-function.outsideClick(e){
-	if(e.target==modal){
-modal.style.display ='none';
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
 }
 
 
@@ -57,3 +49,23 @@ function myFunction() {
         x.style.display = "none";
     }
 }
+
+
+
+const articles = document.querySelectorAll('article');
+
+for(let i=0; i<articles.length; i++){
+  let button = articles[i].querySelector('button');
+  let para = articles[i].querySelector('p');
+  
+  button.addEventListener('click', function(){
+    articles[i].classList.toggle('expanded');
+    button.innerHTML = articles[i].classList.contains('expanded') ?
+      'Hide Details' : 'Show Details';
+ });
+}
+
+// ? is a ternary operator (if condition ? was truthy : was falsy) behaves like a
+// collapsed if statement
+
+    

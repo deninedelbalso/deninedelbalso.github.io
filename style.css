@@ -201,76 +201,61 @@ a:visited {
     color: #008080;
   }
 
-#modalButton{
-color: coral;
-padding:1 em 2 em;
-color: #fff;
-border:0;
+/* The Modal (background) */
+.modal {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    display: none; /* Hidden by default */
+    height: 100%; /* Full height */
+    left: 0;
+    overflow: auto; /* Enable scroll if needed */
+    padding-top: 100px; /* Location of the box */
+    position: fixed; /* Stay in place */
+    top: 0;
+    width: 100%; /* Full width */
+    z-index: 1; /* Sit on top */
 }
 
-.button:hover{
-background: #333;
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    border: 5px solid #888;
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    font-size: small;
 }
 
-.modal{
-  display:none;
-  position: fixed;
-  z-index:1;
-  left: 0;
-  top:0;
-  height: 100%
-  width:100%;
-  overflow: auto;
-  background-color:rgba(0,0,0,0.3);
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
 
-.modal-content{
-  background-color: #f4f4f4;
-  margin:50%; auto;
-  width: 80%;
-  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7ox 20px 0 rgba(0,0,0,0,.17);
-  animation-name: "modalopen";
-  animation-duration: 2s;
+.close:hover,
+.close:focus {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
 }
 
-.modal-header h2, .modal-footer h3{
-margin: 0;
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
 
-.modal-header{
-  background:coral;
-  color: #fff;
-  padding:15px
+.close:hover,
+.close:focus {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
 }
-
-.modal-footer{
-background: coral;
-padding: 10px;
-color: #fff;
-text-align:center;
-}
-
-.modal-body{
-  padding:10px 20px;
-}
-
-.closeButton{
-  color:#fff
-  float:right;
-  font-size: 30px;
-}
-
-.closeButon:hover, .closeButton:focus{
-  color:#000;
-  text-decoration: none;
-  cursor:pointer;
-}
-
-@keyframes modalopen{
-  from{opacity: 0}
-  to{opacity:1;}
-}
-
 .collapsible {
   background-color: #eee;
   color: #444;
@@ -292,4 +277,21 @@ text-align:center;
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
+}
+
+
+
+
+
+
+article{
+  margin: 2rem;
+}
+
+article p{
+  display: none;
+}
+
+ .expanded p {
+  display: block;
 }
