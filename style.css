@@ -29,7 +29,13 @@ padding: 20px;
 border: 15px solid black;
 text-align: left;
 margin: 5rem auto;
-font-family: "League spartan";
+font-family: }
+
+#navigation{
+  color:teal;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: trajan;  
 }
 
 .main{
@@ -116,6 +122,13 @@ list-style-type: none
     left: 30%;
     transform: translate(-50%, -50%);
   }
+
+  #imageMe{
+  padding:1px;
+   border:1px solid #021a40 round;
+   background-color: coral;
+}
+     
 
 #virtualPetsAmokImage{
    border-radius: 50%;
