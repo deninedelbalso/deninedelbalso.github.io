@@ -245,12 +245,6 @@ a:visited {
     cursor: pointer;
     transition: 0.3s;
 }
-.close:hover,
-.close:focus {
-    color: #000;
-    cursor: pointer;
-    text-decoration: none;
-}
 
 
 /* The Close Button */
@@ -261,6 +255,12 @@ a:visited {
     font-weight: bold;
 }
 
+.close:hover,
+.close:focus {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
 
 #myModal{
      color: #aaaaaa;
