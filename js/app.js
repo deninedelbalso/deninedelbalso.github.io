@@ -65,6 +65,21 @@ for(let i=0; i<articles.length; i++){
  });
 }
 
+const button = document.querySelector('button');
+const h2 = document.querySelector('h2');
+button.addEventListener('click', function(){
+  h2.classList.toggle('styled');
+});
+
+const h3 = document.querySelector('h3');
+h3.addEventListener('mouseover', function (){
+  h3.classList.add('hover');
+})
+h3.addEventListener('mouseout', function (){
+  h3.classList.remove('hover');    
+});
+
+
 // ? is a ternary operator (if condition ? was truthy : was falsy) behaves like a
 // collapsed if statement
 

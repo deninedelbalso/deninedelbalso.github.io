@@ -318,3 +318,36 @@ article{
  .expanded p {
   display: block;
 }
+
+
+.styled{
+  color: blue;
+}
+
+.hover{
+  color: blue;
+  font-size: 200%;
+  transition: 2s;
+}
+
+#educationHover{
+  color: black;
+  font-size: 100%;
+  transition: 2s;
+}
+
+styled{
+  color: blue;
+}
+
+#skills:hover{
+  color: blue;
+  font-size: 200%;
+  transition: 2s;
+}
+
+#skills{
+  color: black;
+  font-size: 100%;
+  transition: 2s;
+}
