@@ -48,9 +48,15 @@ body {
   font-family: 'Poiret One', cursive;
 }
 
+#edContainer{
+  display: table;
+  table-layout: fixed;
+  width: 80%;
+}
+
 .fa-envelope{
   color:white;
-	margin-left: 55px;
+  margin-left: 55px;
   margin-top: 30px;
 }
 
