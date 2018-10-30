@@ -264,21 +264,22 @@ hr.style-two {
   clear: both;
 }
 
+
 #schoolDegree{
-  font-size: 1.3rem;
+  font-size: .95vw;
   font-family: 'Raleway', sans-serif;
   line-height: 130%;
 }
 
 .schoolEd{
-  font-size: .9rem;
+  font-size: .65vw;
   font-family: 'Raleway', sans-serif;
   line-height: 190%;
 }
 
 
 .skills{
-  font-size: 1.3rem;
+    font-size: .8vw;
   font-family: 'Raleway', sans-serif;
   line-height: 190%;
 }
