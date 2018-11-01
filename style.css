@@ -89,9 +89,17 @@ div img{ display:inline- block;
   font-family: 'Roboto', sans-serif;
   position: relative;
   left: 33%;
-  bottom: 308px;
+  bottom: 317px;
 }
 
+#foodRescueImage{
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  padding: 5px;
+  max-width: 100%; 
+  height:163px;
+  transform: translate(150%, -310%);
+}
 
 .grid-container {
   display: grid;
@@ -342,12 +350,5 @@ ul {
 
 
 
-#foodRescueImage{
-  border-radius: 50%;
-  border: 1px solid #ddd;
-  padding: 5px;
-  max-width: 100%; 
-  height:163px;
-  transform: translate(150%, -310%);
-}
+
 
