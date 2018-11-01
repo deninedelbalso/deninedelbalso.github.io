@@ -97,7 +97,7 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: 155px;
-  grid-template-rows: 155px 1800px;
+  grid-template-rows: 155px 1700px;
   border-radius: 10px 300px 30px 300px;
   background-color: #A9A9A9;
   margin: auto auto;
@@ -234,7 +234,7 @@ hr.style-two {
 
 #portfolioHeader {
   color: coral;
-  font-size: 1.6vw;
+  font-size: 1.8vw;
   font-family: 'Poiret One', cursive;
   letter-spacing: 6px;  
   font-weight: bold;
@@ -244,7 +244,7 @@ hr.style-two {
 
 #portfolioSubheader {
   color: white;
-  font-size: 1vw;
+  font-size: 1.2vw;
   font-family: 'Poiret One', cursive;
   letter-spacing: 6px;  
   font-weight: bold;
