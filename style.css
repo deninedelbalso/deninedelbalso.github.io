@@ -48,6 +48,11 @@ body {
   font-family: 'Poiret One', cursive;
 }
 
+div img{ display:inline- block;
+
+}
+
+
 #edContainer{
   display: table;
   table-layout: fixed;
