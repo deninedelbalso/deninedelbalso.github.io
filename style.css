@@ -106,7 +106,7 @@ div img{ display:inline- block;
 .grid-container {
   display: grid;
   grid-template-columns: 155px;
-  grid-template-rows: 155px 2000px;
+  grid-template-rows: 155px 1900px;
   border-radius:.25% 28.75% 75% 18.75%;
   margin: auto auto;
   max-width: 1000px;
