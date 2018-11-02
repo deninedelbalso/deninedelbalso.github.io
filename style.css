@@ -9,14 +9,21 @@
     #secondary { width:100%; margin:0; border:none; }
 }
 
+*{
+ box-sizing:border-box;
+}
 
 body {
-	background-color: #f2f0eb;
+  background-color: #f2f0eb;
 }
 
 .column {
   float: left;
   width: 50%;
+}
+
+.container{
+  overflow:hidden;
 }
 
 #craveSpot{
@@ -99,9 +106,8 @@ div img{ display:inline- block;
 .grid-container {
   display: grid;
   grid-template-columns: 155px;
-  grid-template-rows: 155px 1900px;
-  border-radius: 10px 300px 30px 300px;
-  background-color: #A9A9A9;
+  grid-template-rows: 155px 2300px;
+  border-radius:.25% 28.75% 75% 18.75%;
   margin: auto auto;
   max-width: 1000px;
   background-color: #008080; 
