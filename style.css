@@ -32,7 +32,7 @@ body {
   font-family: 'Roboto', sans-serif;
   position: relative;
   right: 1%;
-  bottom: 84px;
+  bottom: 78px;
 }
 
 #craveSpotImage{
@@ -90,8 +90,8 @@ div img{ display:inline- block;
   font-size: 1.2rem;
   font-family: 'Roboto', sans-serif;
   position: relative;
-  left: 33%;
-  bottom: 290px;
+  left: 31%;
+  bottom: 300px;
 }
 
 #foodRescueImage{
@@ -100,7 +100,7 @@ div img{ display:inline- block;
   padding: 5px;
   max-width: 100%; 
   height:163px;
-  transform: translate(150%, -300%);
+  transform: translate(150%, -310%);
 }
 
 .grid-container {
@@ -333,8 +333,8 @@ ul {
   font-size: 1.2rem;
   font-family: 'Roboto', sans-serif;
   position: relative;
-  right: 34%;
-  bottom: -150px;
+  right: 32%;
+  bottom: -144px;
 }
 
 #virtualPetImage{
