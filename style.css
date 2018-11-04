@@ -9,6 +9,14 @@
     #secondary { width:100%; margin:0; border:none; }
 }
 
+@media screen and (max-width: 768px) {
+	body{
+  justify-content: center;
+    flex-direction: column;
+    align-items: center;
+	}
+}
+
 *{
  box-sizing:border-box;
 }
