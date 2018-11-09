@@ -61,12 +61,6 @@ div img{ display:inline- block;
 
 }
 
-.edContainer{
-  display: table;
-  table-layout: fixed;
-  width: 80%;
-}
-
 .fa-envelope{
   color:white;
   margin-left: 55px;
