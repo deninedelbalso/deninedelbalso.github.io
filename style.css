@@ -30,10 +30,6 @@ body {
   width: 50%;
 }
 
-.container{
-  overflow:hidden;
-}
-
 #craveSpot{
   color: #008080;
   font-size: 1.2rem;
@@ -65,7 +61,7 @@ div img{ display:inline- block;
 
 }
 
-#edContainer{
+.edContainer{
   display: table;
   table-layout: fixed;
   width: 80%;
