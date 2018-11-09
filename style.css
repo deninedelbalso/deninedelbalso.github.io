@@ -22,6 +22,12 @@
 
 body {
   background-color: #f2f0eb;
+	display: block;
+    margin: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
 }
 
 .column {
