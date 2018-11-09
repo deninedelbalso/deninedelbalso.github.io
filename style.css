@@ -265,7 +265,7 @@ hr.style-two {
   clear: both;
 }
 
-.schoolDegree{
+#schoolDegree{
   font-size: 1.3rem;
   font-family: 'Raleway', sans-serif;
   line-height: 130%;
