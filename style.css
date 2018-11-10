@@ -300,6 +300,10 @@
 	  line-height: 1.96;
 	  font-size: 1.4rem;
 	}
+
+       .style-two{
+	   width=75%;
+	}
 	
 	.topicHeaders {
 	  color: teal;
