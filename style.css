@@ -106,7 +106,7 @@
 	}
 
 	html {
-	  font-size: calc(1em + 1vw);
+	  font-size: calc(.25em + 1vw);
         }
 	
 	#imageMe{
