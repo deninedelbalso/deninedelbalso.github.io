@@ -342,7 +342,7 @@
 	}
 
 	#virtualPet:hover {
-	  opacity: 1.7;
+	  opacity: .1;
 	}
 	
 	#virtualPetImage{
