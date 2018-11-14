@@ -1,13 +1,7 @@
 
-@media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
-    }
-}
 
-
-*{
-	 box-sizing:border-box;
+        *{
+	  box-sizing:border-box;
 	}
 	
 	body {
@@ -16,8 +10,7 @@
 	
 	.column {
 	  float: left;
-	max-width: 100%;
-
+	  max-width: 100%;
 	  width: 50%;
 	}
 	
