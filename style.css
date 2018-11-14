@@ -10,9 +10,9 @@
 	
 	.column {
 	  float: left;
-	  max-width: 100%;
+	  max-width: 50%;
 	  width: 50%;
-	  position: static; 
+	 
 	}
 	
 	#craveSpot{
