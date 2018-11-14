@@ -255,6 +255,13 @@
 	  margin-top:-70px;
 	  margin-left: 100px;
 	}
+
+	/* Clear floats after the columns */
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
 	
 	.schoolDegree{
 	  font-size: 1.3rem;
