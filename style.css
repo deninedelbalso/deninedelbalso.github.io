@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 250px) {
+@media only screen and (max-width: 150px) {
 .grid-container {
 	  grid-template-rows: 155px 2700px;
 	  max-width: 7000px;
