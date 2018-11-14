@@ -1,18 +1,18 @@
  
 @media screen and (min-width: 400px) {
-  .column {
+  .containers {
     width: 10%;
   }
 }
  
 @media screen and (min-width: 768px) {
-  .column  {
+  .containers  {
     width: 10%;
   }
 }
  
 @media screen and (min-width: 1024px) {
-   .column  {
+   .containers {
     width: 10%;  
   }    
 }
