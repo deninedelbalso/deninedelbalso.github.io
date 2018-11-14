@@ -1,6 +1,6 @@
 @media only screen 
-and (min-device-width : 375px) 
-and (orientation : portrait)  {
+and (min-device-width : 275px) 
+ {
 #imageMe{
 	 
 	  background-color: yellow;
