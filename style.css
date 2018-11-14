@@ -15,6 +15,7 @@
 	}
 	
 	.column {
+		display:flex;
 	  float: left;
 	  width: 50%;
 	}
