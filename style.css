@@ -3,7 +3,7 @@ and (min-device-width : 375px)
 and (max-device-width : 667px) 
 and (orientation : portrait) 
 .grid-container {
-	  grid-template-rows: 155px 2700px;
+	  grid-template-rows: 155px 6700px;
 	  max-width: 7000px;
 	}	
 	
