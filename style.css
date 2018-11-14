@@ -12,6 +12,7 @@
 	  float: left;
 	  max-width: 100%;
 	  width: 50%;
+	  position: fixed; 
 	}
 	
 	#craveSpot{
