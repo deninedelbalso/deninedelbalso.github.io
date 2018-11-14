@@ -27,6 +27,10 @@
 	  right: 1%;
 	  bottom: 78px;
 	}
+
+        #craveSpot:hover {
+	  opacity: 0.7;
+	}
 	
 	#craveSpotImage{
 	  border-radius: 50%;
@@ -80,6 +84,10 @@
 	  position: relative;
 	  left: 31%;
 	  bottom: 300px;
+	}
+
+        #foodRescue:hover {
+	  opacity: 0.7;
 	}
 	
 	#foodRescueImage{
@@ -331,6 +339,10 @@
 	  position: relative;
 	  right: 32%;
 	  bottom: -144px;
+	}
+
+	#virtualPet:hover {
+	  opacity: 0.7;
 	}
 	
 	#virtualPetImage{
