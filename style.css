@@ -15,8 +15,9 @@
 	}
 	
 	.column {
-		display:flex;
 	  float: left;
+	max-width: 100%;
+
 	  width: 50%;
 	}
 	
