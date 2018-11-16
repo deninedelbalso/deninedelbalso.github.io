@@ -5,11 +5,7 @@
   }
 }
  
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
+
 @media screen and (min-width: 1024px) {
    .containers {
     width: 10%;  
@@ -24,18 +20,13 @@
 	  background-color: #f2f0eb;
 	}
 	
-	.column {
-
-	    flex: 50%;
-	    float: left;
-		    padding-top: 2%;
-				    padding-left: 7%;
-
-				    padding-right: 5%;
-
-
+        .column {
+	  float: left;
+	  max-width: 50%;
+	  width: 50%;
+	 
 	}
-	
+
 	#craveSpot{
 	  color: #008080;
 	  font-size: 1.2rem;
@@ -277,14 +268,12 @@
 	  margin-left: 100px;
 	}
 
-	/* Clear floats after the columns */
-	.row:after {
-	  display: flex;
-			    float: right;
+        .row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+        }   
 
-	
-	}
-	
 	.schoolDegree{
 	  font-size: 1.3rem;
 	  font-family: 'Raleway', sans-serif;
