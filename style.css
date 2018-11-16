@@ -5,6 +5,10 @@
   }
 }
  
+@media (max-width: @screen-xs-min) {
+  .modal-xs { width: @modal-sm; }
+}
+
 
 @media screen and (min-width: 1024px) {
    .containers {
