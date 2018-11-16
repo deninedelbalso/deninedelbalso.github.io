@@ -5,11 +5,9 @@
   }
 }
  
-@media screen and (max-width: 480px) {
-    .column, 
-    .row:after {
-        float: none;
-        width: auto;
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
     }
 }
 @media screen and (min-width: 1024px) {
@@ -29,7 +27,7 @@
 	.column {
 
 	    flex: 50%;
-	 
+	    float: left;
 	}
 	
 	#craveSpot{
@@ -276,6 +274,8 @@
 	/* Clear floats after the columns */
 	.row:after {
 	  display: flex;
+			    float: right;
+
 	
 	}
 	
