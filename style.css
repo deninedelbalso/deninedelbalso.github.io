@@ -13,7 +13,10 @@
     width: 10%;  
   }    
 }
-
+.modal-backdrop {
+    /* bug fix - no overlay */    
+    display: none;    
+}
         *{
 	  box-sizing:border-box;
 	}
