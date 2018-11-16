@@ -27,9 +27,8 @@
 	}
 	
 	.column {
-	  float: left;
-	  max-width: 50%;
-	  width: 50%;
+
+	    flex: 50%;
 	 
 	}
 	
@@ -276,10 +275,8 @@
 
 	/* Clear floats after the columns */
 	.row:after {
-	  content: "";
-	  display: table;
-	  clear: both;
-	 float: right;
+	  display: flex;
+	
 	}
 	
 	.schoolDegree{
