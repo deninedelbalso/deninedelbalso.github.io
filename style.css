@@ -5,9 +5,7 @@
   }
 }
  
-@media (max-width: @screen-xs-min) {
-  .modal-xs { width: @modal-sm; }
-}
+
 
 
 @media screen and (min-width: 1024px) {
@@ -179,6 +177,14 @@
 	  overflow: auto; /* Enable scroll if needed */
 	  background-color: rgb(0,0,0); /* Fallback color */
 	  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+		-webkit-overflow-scrolling: touch;
+    @media (min-width: 60em) {
+      height:75%;
+  	 margin:5% auto;
+  	 max-height: 57em;
+      max-width:66em;
+      width:85%;
+  	}
 	
 	}
 	
