@@ -5,19 +5,13 @@
   }
 }
  
-@media screen and (min-width: 768px) {
-	.column {
-	  float: left;
-	  max-width: 50%;
-	  width: 50%;	 
-	}
-		.row:after {
-	  content: "";
-	  display: table;
-	  clear: both;
-	}
+@media screen and (max-width: 480px) {
+    .column, 
+    .row:after {
+        float: none;
+        width: auto;
+    }
 }
- 
 @media screen and (min-width: 1024px) {
    .containers {
     width: 10%;  
