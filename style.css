@@ -6,17 +6,36 @@
 }
  
 
-
-
 @media screen and (min-width: 1024px) {
    .containers {
     width: 10%;  
   }    
 }
-.modal-backdrop {
-    /* bug fix - no overlay */    
-    display: none;    
+
+.modal-backdrop.fade {
+opacity: 0;
+filter: alpha(opacity=0);
 }
+.modal-backdrop.in {
+opacity: 0.5;
+filter: alpha(opacity=50);
+}
+
+
+.modal-backdrop.fade {
+opacity: 0;
+filter: alpha(opacity=0);
+}
+.modal-backdrop.fade.in {
+opacity: 0.5;
+filter: alpha(opacity=50);
+}
+
+
+
+
+
+
         *{
 	  box-sizing:border-box;
 	}
