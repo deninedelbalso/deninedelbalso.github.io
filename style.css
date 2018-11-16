@@ -279,6 +279,7 @@
 	  content: "";
 	  display: table;
 	  clear: both;
+	 float: right;
 	}
 	
 	.schoolDegree{
