@@ -12,30 +12,6 @@
   }    
 }
 
-.modal-backdrop.fade {
-opacity: 0;
-filter: alpha(opacity=0);
-}
-.modal-backdrop.in {
-opacity: 0.5;
-filter: alpha(opacity=50);
-}
-
-
-.modal-backdrop.fade {
-opacity: 0;
-filter: alpha(opacity=0);
-}
-.modal-backdrop.fade.in {
-opacity: 0.5;
-filter: alpha(opacity=50);
-}
-
-
-
-
-
-
         *{
 	  box-sizing:border-box;
 	}
@@ -216,7 +192,7 @@ filter: alpha(opacity=50);
 	  font-weight: bold;
 	  max-height: 100%;
 	  background-color: #fefefe;
-	  word-wrap: break-word;
+	  overflow:scroll;
 
 	}
 	
