@@ -6,9 +6,16 @@
 }
  
 @media screen and (min-width: 768px) {
-  .containers  {
-    width: 10%;
-  }
+	.column {
+	  float: left;
+	  max-width: 50%;
+	  width: 50%;	 
+	}
+		.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
 }
  
 @media screen and (min-width: 1024px) {
