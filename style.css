@@ -179,10 +179,12 @@
 	  overflow: auto; /* Enable scroll if needed */
 	  background-color: rgb(0,0,0); /* Fallback color */
 	  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	
 	}
 	
 	.modal-content {
 	  position: relative;
+          text-align:center;
 	  line-height: 150%;
 	  top: 10px;
 	  left: 75px;
